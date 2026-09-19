@@ -1,5 +1,13 @@
 # SkSL Best Practices and Limitations
 
+<ul>
+{% for file in site.static_files %}
+  {% if file.path contains '/docs/' and file.extname == '.md' %}
+    <li><a href="{{ file.path | relative_url }}">{{ file.name }}</a></li>
+  {% endif %}
+{% endfor %}
+</ul>
+
 ## Entry Point
 
 * Entry point should be:
