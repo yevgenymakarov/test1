@@ -1,6 +1,10 @@
 # test1
 test test test
 
+[I'm a relative reference to a repository file](Coordinate System)
+
+[I'm a relative reference to a repository file](Coordinate System.md)
+
 # <img>
 <img width="600" height="240" alt="Set-Pivot-Screen" src="https://github.com/user-attachments/assets/07bd7e2f-c78e-44e3-a824-00d301672413" />
 
