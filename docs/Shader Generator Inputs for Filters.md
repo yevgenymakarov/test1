@@ -17,7 +17,7 @@ In your `definitions.json`, add a shader attribute:
             "type": "shaderData",
             "supportedInputNodeTypes": ["shader", "shaderArray"],
             "subUI": true,
-            "defaultSubnodeType": "noiseShader"
+            "defaultSubnodeType": "noiseShader
         }
     }
 }
