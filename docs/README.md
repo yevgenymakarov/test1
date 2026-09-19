@@ -2,19 +2,19 @@
 
 ## Entry Point
 
-* Entry point should be:
 
-<details open>
-<summary>По умолчанию открытый блок</summary>
-Cavalry automatically provides certain uniforms to your shaders. They're only available if you declare them:
-</details>
-
-{% for repository in site.github.public_repositories %}
+{% for repository in site.pages %}
   * [{{ repository.name }}]({{ repository.html_url }})
 {% endfor %}
 
 
-site.github.releases_url
+{{ page }}
+{{ layout }}
+
+{{ site.pages }}
+
+{{ page.title }}
+{{ site.github.url }}
 
 ### Automatic Uniforms
 
