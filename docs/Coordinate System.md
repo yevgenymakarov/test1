@@ -1,6 +1,7 @@
 ---
 title: Установка
 permalink: /install/
+categories: CATEGORY-1 CATEGORY-2
 ---
 
 # Cavalry Coordinate System Guide
