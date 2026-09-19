@@ -1,7 +1,6 @@
 ---
-title: Установка
-permalink: /install/
-categories: CATEGORY-1 CATEGORY-2
+layout: page
+permalink: /page/
 ---
 
 # Cavalry Coordinate System Guide

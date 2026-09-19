@@ -1,3 +1,8 @@
+---
+layout: default
+permalink: /default/
+---
+
 ## Using Shaders as Generator Inputs to Filters
 
 Filters can accept shaders as generator inputs, allowing you to use noise, gradients, or other shader outputs to control filter behaviour.

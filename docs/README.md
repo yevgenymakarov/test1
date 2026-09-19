@@ -1,8 +1,5 @@
 ---
-layout: post
-title: "POST-TITLE"
-date: 1984-01-01 12:12:12 -0000
-categories: CATEGORY-1 CATEGORY-2
+layout: home
 ---
 
 # SkSL Best Practices and Limitations
