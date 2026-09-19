@@ -4,11 +4,17 @@
 
 * Entry point should be:
 
+<details open>
+<summary>По умолчанию открытый блок</summary>
+
+
   ```glsl
   float4 main(float2 coord) {
       ...
   }
   ```
+
+</details>
 
 ### Automatic Uniforms
 
