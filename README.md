@@ -12,3 +12,9 @@ test test test
 
 https://github.com/user-attachments/assets/5d67fa69-aaeb-43f1-8aee-8e0745faa0c6
 
+## video
+
+<video controls width="800">
+  <source src=".Untitled.mp4" type="video/mp4">
+  Ваш браузер не поддерживает видео.
+</video>
