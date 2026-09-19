@@ -3,7 +3,7 @@ layout: post
 permalink: /post/
 ---
 
-# Multi-Pass Shader/Filter Support
+# Multi-Pass Shader/Filter Support 2
 
 Cavalry supports multi-pass shaders and filters, allowing third-party developers to create complex effects that require multiple rendering passes.
 

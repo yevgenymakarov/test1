@@ -3,7 +3,7 @@ layout: page
 permalink: /page/
 ---
 
-# Cavalry Coordinate System Guide
+# Cavalry Coordinate System Guide 2
 
 This document explains the coordinate system used in Cavalry's SkSL shaders and filters.
 
