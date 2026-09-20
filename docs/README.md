@@ -2,16 +2,20 @@
 
 ## Entry Point
 
+<ul>
+  {% for post in site.posts %}
+    <li>
+      <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
+      {{ post.excerpt }}
+    </li>
+  {% endfor %}
+</ul>
+
 
 {% for repository in site.pages %}
-  * [{{ repository.name }}]({{ repository.html_url }})
+  * repository.name
 {% endfor %}
 
-
-{{ page }}
-{{ layout }}
-
-{{ site.pages }}
 
 {{ page.title }}
 {{ site.github.url }}
