@@ -8,6 +8,10 @@
 
 ### Automatic Uniforms
 
+{% for page in site.pages %}
+  * [{{ page.name }}]({{ page.url }})
+{% endfor %}
+
 Cavalry automatically provides certain uniforms to your shaders. They're only available if you declare them:
 
 #### Resolution
