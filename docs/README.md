@@ -2,23 +2,22 @@
 
 ## Entry Point
 
-<ul>
-  {% for post in site.posts %}
-    <li>
-      <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
-      {{ post.excerpt }}
-    </li>
-  {% endfor %}
-</ul>
 
 
-{% for repository in site.pages %}
-  * repository.name
+
+{% for pp in site.pages %}
+  * {{ pp.name }}
 {% endfor %}
 
 
-{{ page.title }}
-{{ site.github.url }}
+{{ layout }}
+
+{{ theme }}
+
+{{ page }}
+
+{{ site }}
+
 
 ### Automatic Uniforms
 
