@@ -1,5 +1,12 @@
 # SkSL Best Practices and Limitations 2
 
+{{ theme }}
+{{ theme.root }}
+{{ theme.description }}
+{{ theme.version }}
+{{ theme.dependencies }}
+{{ theme.metadata }}
+
 ## Entry Point
 
 [Link to a Coordinate]({% link Coordinate System.md %})
