@@ -2,12 +2,6 @@
 
 ## Entry Point
 
-{{ site.github.latest_release }}
-{{ site.github.releases }}
-
-{{ site.github.releases_url }}
-{{ site.github.zip_url }}
-
 ### Automatic Uniforms
 
 Cavalry automatically provides certain uniforms to your shaders. They're only available if you declare them:
