@@ -2,22 +2,11 @@
 
 ## Entry Point
 
+{{ site.github.latest_release }}
+{{ site.github.releases }}
 
-
-
-{% for pp in site.pages %}
-  * {{ pp.name }}
-{% endfor %}
-
-
-{{ layout }}
-
-{{ theme }}
-
-{{ page }}
-
-{{ site }}
-
+{{ site.github.releases_url }}
+{{ site.github.zip_url }}
 
 ### Automatic Uniforms
 
