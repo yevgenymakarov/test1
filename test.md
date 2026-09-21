@@ -1,3 +1,11 @@
+---
+title: PAGE TITLE
+permalink: /multipass/
+categories: CATEGORY-1 CATEGORY-2
+tags: aaa ccc
+xyz: testxyz
+---
+
 # SkSL Best Practices and Limitations 2
 
 ## Entry Point
