@@ -1,5 +1,6 @@
 ---
 title: PAGE TITLE
+description: front matter description tag
 permalink: /multipass/
 categories: CATEGORY-1 CATEGORY-2
 tags: aaa ccc
