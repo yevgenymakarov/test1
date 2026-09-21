@@ -1,12 +1,5 @@
 # SkSL Best Practices and Limitations 2
 
-{{ theme }}
-{{ theme.root }}
-{{ theme.description }}
-{{ theme.version }}
-{{ theme.dependencies }}
-{{ theme.metadata }}
-
 ## Entry Point
 
 [Link to a Coordinate]({% link Coordinate System.md %})
@@ -16,7 +9,7 @@
 ### Automatic Uniforms
 
 {% for page in site.pages %}
-  * [{{ page.name }}]({{ page.url }})
+  * [{{ page.name }}]({{ page.url | absolute_url }})
 {% endfor %}
 
 Cavalry automatically provides certain uniforms to your shaders. They're only available if you declare them:
