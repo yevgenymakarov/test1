@@ -9,8 +9,6 @@
 ***
 
 [Link to a Coordinate]({% link coordinate-system.md %})
-[Link to a Multipass]({% link Multipass Shaders and Filters.md %})
-[Link to a Shader]({% link Shader Generator Inputs for Filters.md %})
 
 ### Automatic Uniforms
 
