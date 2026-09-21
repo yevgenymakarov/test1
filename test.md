@@ -50,11 +50,11 @@ Setting `autoPadding` to true on the layer will ask Cavalry to automatically det
 
 ### Shader Inputs
 
-Filters can use shaders as inputs to control their behaviour. See `Shader Generator Inputs for Filters.md` for details.
+Filters can use shaders as inputs to control their behaviour.  for details.
 
 ### Multi-pass
 
-Multi-pass Shaders and Filters are supported, see `Multipass Shaders and Filters.md` for details.
+Multi-pass Shaders and Filters are supported, see for details.
 
 ## Loop Constraints
 
@@ -85,72 +85,6 @@ float dy = sample(img, uv + float2(0, 1.0/resolution.y)).r -
 Supersampling can also be used if anti-aliasing is required.
 
 Here's an example of Adaptive Super-Sampling with improved edge detection for dark colors:
-
-```glsl
-// First, get a rough sample to test for edges
-    half4 centerSample = image.eval(sourceCoord);
-    
-    // Sample neighbors to detect contrast/edges
-    float2 offsets[4];
-    offsets[0] = float2(-1.0, 0.0);
-    offsets[1] = float2(1.0, 0.0);
-    offsets[2] = float2(0.0, -1.0);
-    offsets[3] = float2(0.0, 1.0);
-    
-    // Calculate contrast by comparing center with neighbors
-    float maxContrast = 0.0;
-    for (int i = 0; i < 4; i++) {
-        half4 neighborSample = image.eval(sourceCoord + offsets[i]);
-        
-        // Use multiple edge detection methods for robust detection
-        // 1. Color difference (catches edges in any channel)
-        float3 colorDiff = abs(centerSample.rgb - neighborSample.rgb);
-        float colorContrast = max(colorDiff.r, max(colorDiff.g, colorDiff.b));
-        
-        // 2. Relative luminance change
-        float centerLum = dot(centerSample.rgb, float3(0.299, 0.587, 0.114));
-        float neighborLum = dot(neighborSample.rgb, float3(0.299, 0.587, 0.114));
-        float relativeLumContrast = abs(centerLum - neighborLum) / (max(centerLum, neighborLum) + 0.01);
-        
-        // 3. Alpha channel difference
-        float alphaContrast = abs(centerSample.a - neighborSample.a);
-        
-        // Combine all contrast metrics
-        float contrast = max(colorContrast, max(relativeLumContrast * 0.5, alphaContrast));
-        
-        maxContrast = max(maxContrast, contrast);
-    }
-    
-    // Threshold for edge detection
-    float contrastThreshold = 0.05;
-    
-    if (maxContrast > contrastThreshold) {
-        // High contrast detected - use 3x3 super-sampling with bilinear interpolation
-        half4 colorSum = half4(0.0);
-        float weightSum = 0.0;
-        
-        // 3x3 sampling pattern with bilinear weights
-        for (int y = -1; y <= 1; y++) {
-            for (int x = -1; x <= 1; x++) {
-                float2 sampleOffset = float2(float(x) * 0.33, float(y) * 0.33);
-                half4 sampleColor = image.eval(sourceCoord + sampleOffset);
-                
-                // Bilinear weight based on distance from center
-                float weight = 1.0 - (abs(float(x)) + abs(float(y))) * 0.2;
-                weight = max(weight, 0.1); // Minimum weight
-                
-                colorSum += sampleColor * weight;
-                weightSum += weight;
-            }
-        }
-        
-        color = colorSum / weightSum;
-        
-    } else {
-        // Low contrast area - single sample is sufficient
-        color = centerSample;
-    }
-```
 
 ## Color Range
 
