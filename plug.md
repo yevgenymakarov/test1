@@ -1,6 +1,5 @@
 ---
-layout: pst
-permalink: /page/
+permalink: /plagins/subpage/
 ---
 
 # Cavalry Coordinate System Guide

@@ -2,14 +2,20 @@
 
 ## Entry Point
 
-[Link to a Coordinate]({% link Coordinate System.md %})
+[foo](coordinate-system.md)
+[foo](sub-test/suubb.md)
+[foo](plug.md)
+
+***
+
+[Link to a Coordinate]({% link coordinate-system.md %})
 [Link to a Multipass]({% link Multipass Shaders and Filters.md %})
 [Link to a Shader]({% link Shader Generator Inputs for Filters.md %})
 
 ### Automatic Uniforms
 
 {% for page in site.pages %}
-  * [{{ page.name }}]({{ page.url | absolute_url }})
+- [{{ page.name }}]({{ page.url | absolute_url }})
 {% endfor %}
 
 Cavalry automatically provides certain uniforms to your shaders. They're only available if you declare them:

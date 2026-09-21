@@ -1,6 +1,6 @@
 ---
 layout: post
-permalink: /post/
+permalink: /multipass/
 ---
 
 # Multi-Pass Shader/Filter Support 2
