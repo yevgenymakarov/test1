@@ -17,7 +17,9 @@ xyz: testxyz
 
 ***
 
-[Link to a Coordinate]({% link coordinate-system.md %})
+### inst TAG
+
+{{ site.inst }}
 
 ### Automatic Uniforms
 
