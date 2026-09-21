@@ -34,7 +34,7 @@ Shader uniforms bind by **position**, not by name. The binding order is:
 1. Your custom shader inputs (in the order defined in attributes)
 2. The input image (automatically added as the last shader)
 
-For multi-pass filters, see [Multipass Shaders and Filters](Multipass%20Shaders%20and%20Filters.md) for additional binding considerations.
+For multi-pass filters, see [Multipass Shaders and Filters](test.md) for additional binding considerations.
 
 ```glsl
 uniform shader displacementShader;  // Your shader input (first)
