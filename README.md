@@ -12,6 +12,48 @@ test test test
 ![Minion](https://github.com/user-attachments/assets/07bd7e2f-c78e-44e3-a824-00d301672413)
 
 
+Perform <kbd>Ctrl</kbd> + <kbd>Alt</kbd> + <kbd>Space</kbd> command.
+
+Perform `Ctrl` + `Alt` + `Space` command.
+
+
+term
+: definition
+: another definition
+term
+: definition
+
+
+<div style="float: right">
+Something that stays **right** and is not wrapped in a para.
+</div>
+
+{::options parse_block_html="true" /}
+
+<div>
+This is **wrapped** in a para.
+</div>
+
+
+> A nice blockquote
+{: title="Blockquote title"}
+
+
+> A nice blockquote
+{: .class1 .class2}
+
+
+This is an HTML
+example.
+
+*[HTML]: Hyper Text Markup Language
+
+
+This is <span style="color: red">written in
+red</span>.
+
+
+
 # MINI
 
 <img width="18" height="18" alt="mirrorDeformer@2x 12 27 25" src="https://github.com/user-attachments/assets/4ae08edc-458c-4956-a1f7-c5967cdcbe85" />
