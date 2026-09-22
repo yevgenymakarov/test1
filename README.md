@@ -19,7 +19,7 @@ Perform `Ctrl` + `Alt` + `Space` command.
 
 term
 : definition
-: another definition
+
 term
 : definition
 
@@ -35,23 +35,34 @@ This is **wrapped** in a para.
 </div>
 
 
-> A nice blockquote
+> A nice blockquote title=""
 {: title="Blockquote title"}
 
 
-> A nice blockquote
+> A nice blockquote .class1 .class2
 {: .class1 .class2}
 
 
-This is an HTML
-example.
-
-*[HTML]: Hyper Text Markup Language
+This is <span style="color: red">written in red</span>.
 
 
-This is <span style="color: red">written in
-red</span>.
+```js
+(function () {
+  let attrIds = api.getSelectedAttributes();
+  let layerIds = api.getSelection();
 
+  let overwrite = api.isAltHeld();
+
+  for (let [layerId, attrId] of attrIds) {
+    for (let targetId of layerIds) {
+      if (api.hasAttribute(targetId, attrId) && targetId !== layerId) {
+        api.connect(layerId, attrId, targetId, attrId, overwrite);
+      }
+    }
+  }
+})();
+
+```
 
 
 # MINI
