@@ -146,3 +146,42 @@ int minI(int a, int b) { return a < b ? a : b; }
 int maxI(int a, int b) { return a > b ? a : b; }
 float modf(float a, float b) { return a - b * floor(a / b); }
 ```
+
+~~~ ruby
+def what?
+  42
+end
+~~~
+
+~~~ js
+  layerMap.forEach((layers) => {
+    if (layers.length < 2) return;
+
+    layers.sort((a, b) => api.getNiceName(a).localeCompare(api.getNiceName(b)));
+
+    for (let i = 1; i < layers.length; i++) {
+      if (api.getParent(layers[i - 1]) !== layers[i]) {
+        api.reorder(layers[i], layers[i - 1]);
+      }
+    }
+  });
+~~~
+
+
+| A simple | table |
+| with multiple | lines|
+
+
+<div>
+
+This is wrapped in a para.\
+This is wrapdsadsadsadsra.\
+[xxx](/plug.md)
+
+</div>
+
+
+This is wrapped in a para.\
+This is wrapdsadsadsadsra.\
+[xxx](/plug.md)
+{: .class1 .class2}
