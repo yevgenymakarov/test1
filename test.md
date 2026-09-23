@@ -7,9 +7,12 @@ tags: aaa ccc
 xyz: testxyz
 ---
 
-# SkSL Best Practices and Limitations 2
+# Test Page
 
-{% include instr.md name="name inserted" %}
+{% include plugin-install.md file_name="Path Visualizer Deformer.zip" %}
+
+{% include script-install.md file_name="Swap Color.zip" %}
+
 
 ## Entry Point
 
