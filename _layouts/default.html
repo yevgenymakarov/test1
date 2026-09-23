@@ -16,11 +16,9 @@
 
       {{ content }}
 
-      {% if site.github.private != true and site.github.license %}
-      <div class="footer border-top border-gray-light mt-5 pt-3 text-right text-gray">
-        This site is open source. {% github_edit_link "Improve this page" %}.
-      </div>
-      {% endif %}
+      <hr>
+
+      <p class="text-gray">Copyright &copy; 2025-2026 <a href="{{ "/" | absolute_url }}">{{ site.title }}</a></p>
     </div>
   </body>
 </html>
