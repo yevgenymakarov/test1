@@ -4,9 +4,10 @@ permalink: /plagins/subpage/
 
 # Path Visualizer
 
-> Version 1.0.0
-> Supports Cavalry 2.7.2 and up
-> [Buy Now](/404.md)
+Version 1.0.0\
+Supports Cavalry 2.7.2 and up\
+[Buy Now](/404.md)
+{: .product-block}
 
 This Cavalry plugin is a Deformer Layer that visualizes the points and handles of a bézier curve.
 
