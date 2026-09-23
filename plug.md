@@ -2,36 +2,38 @@
 permalink: /plagins/subpage/
 ---
 
-# Cavalry Coordinate System Guide
+# Path Visualizer
 
-This document explains the coordinate system used in Cavalry's SkSL shaders and filters.
+> Version 1.0.0
+> Supports Cavalry 2.7.2 and up
+> [Buy Now](/404.md)
 
-### Fragment Coordinate System
+This Cavalry plugin is a Deformer Layer that visualizes the points and handles of a bézier curve.
 
-**Coordinate Origin and Axes:**
-- **Origin**: `(0, 0)` is at the **bottom-left** corner of the image
-- **X-axis**: Increases from left to right (0 to resolution.x)
-- **Y-axis**: Increases from bottom to top (0 to resolution.y) 
-- **Coordinate Range**: `fragCoord` values are in **pixel coordinates** (0 to resolution.x/y)
+<img width="600" alt="Set-Pivot-Screen" src="https://github.com/user-attachments/assets/07bd7e2f-c78e-44e3-a824-00d301672413" />
 
-**Direct Coordinate Usage:**
-- `childShader.eval(coord)` works directly with pixel coordinates
-- **No normalization needed** - pass pixel coordinates directly
-- Coordinate system is **consistent between passes** in multi-pass filters
+## User Manual
 
-**Out-of-Bounds Sampling:**
-- Do not use bounds checking for texture sampling
-- Out-of-bounds coordinates are handled gracefully
-- Bounds checking `eval` calls will likely prevent effects from working properly
+**Dimension** - Set the dimensions of the cube.
 
-### Multi-Pass Coordinate Consistency
+**Tilt** - Set the rotation of the cube.
 
-**Between Passes:**
-- Each pass receives `coord` in the same pixel coordinate system
-- `childShader.eval(coord)` returns identical results across passes
-- No coordinate transformations needed between passes
+**Offset** - Set the position of the cube.
 
-**Coordinate Arithmetic:**
-- Use **direct coordinate arithmetic**
-- Example: `childShader.eval(fragCoord + vector * offset)`
-- This approach works reliably across all coordinate ranges
+**Pivot Position** - Set the position the pivot by aligning it to the cube's bounding box. Affects the direction of the cube's size change.
+
+**Back-Face Culling** - When checked, faces that are not visible (covered by others) will not be drawn. The Shape will contain three sub-meshes instead of six.
+
+**Per-Face Colors** - Use custom fill colors for each face. When disabled, the Shape's Fill and Stroke settings are used.
+
+**Front** - Set the color of the front face.
+
+**Back** - Set the color of the back face.
+
+**Top** - Set the color of the top face.
+
+**Bottom** - Set the color of the bottom face.
+
+**Left** - Set the color of the left face.
+
+{% include plugin-install.md file_name="Path Visualizer Deformer.zip" %}
