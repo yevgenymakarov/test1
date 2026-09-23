@@ -1,6 +1,9 @@
 # test1
 test test test
 
+{{ site.theme }}
+
+
 [arch_new.zip](https://github.com/user-attachments/files/32481816/arch_new.zip)
 
 [test.md](test.md)
