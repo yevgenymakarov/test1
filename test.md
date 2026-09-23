@@ -9,6 +9,8 @@ xyz: testxyz
 
 # SkSL Best Practices and Limitations 2
 
+{% include instr.md name="name inserted" %}
+
 ## Entry Point
 
 [foo](coordinate-system.md)
