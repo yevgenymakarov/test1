@@ -1,11 +1,22 @@
 ---
-layout: pst
 permalink: /coordinate/
 ---
 
 # Cavalry Coordinate System Guide
 
 This document explains the coordinate system used in Cavalry's SkSL shaders and filters.
+
+Version 1.0.0\
+Supports Cavalry 2.7.2 and up\
+[Buy Now](/404.md)
+{: .product-block}
+
+
+Version 1.0.0
+Supports Cavalry 2.7.2 and up
+[Buy Now](/404.md)
+{: .product-block}
+
 
 ### Fragment Coordinate System
 
