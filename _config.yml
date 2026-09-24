@@ -2,4 +2,4 @@ title: YML's homepage title
 description: YML's this to keep an eye on my project updates!
 inst: sdsads dsadsad dasdsadsa
 kramdown:
-  hard_wrap: false
+  hard_wrap: true
