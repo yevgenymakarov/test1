@@ -84,6 +84,19 @@ poster="https://github.com/user-attachments/assets/07bd7e2f-c78e-44e3-a824-00d30
   <source src="https://github.com/user-attachments/assets/5d67fa69-aaeb-43f1-8aee-8e0745faa0c6" type="video/mp4">
 </video>
 
+## preload="auto"
+
+<video controls preload="auto" playsinline width="760" >
+  <source src="https://github.com/user-attachments/assets/5d67fa69-aaeb-43f1-8aee-8e0745faa0c6" type="video/mp4">
+</video>
+
+## preload=""
+
+<video controls playsinline width="760" >
+  <source src="https://github.com/user-attachments/assets/5d67fa69-aaeb-43f1-8aee-8e0745faa0c6" type="video/mp4">
+</video>
+
+
 ## poster
 
 <video autoplay muted loop playsinline width="760">
