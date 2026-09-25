@@ -84,6 +84,6 @@ This is <span style="color: red">written in red</span>.
 
 ## poster
 
-<video width="760" poster="https://github.com/user-attachments/assets/07bd7e2f-c78e-44e3-a824-00d301672413">
+<video autoplay muted loop playsinline width="760">
   <source src="https://github.com/user-attachments/assets/5d67fa69-aaeb-43f1-8aee-8e0745faa0c6" type="video/mp4">
 </video>
