@@ -64,8 +64,61 @@ This is <span style="color: red">written in red</span>.
     }
   }
 })();
+```
+
+
 
 ```
+(function () {
+  let attrIds = api.getSelectedAttributes();
+  let layerIds = api.getSelection();
+
+  let overwrite = api.isAltHeld();
+
+  for (let [layerId, attrId] of attrIds) {
+    for (let targetId of layerIds) {
+      if (api.hasAttribute(targetId, attrId) && targetId !== layerId) {
+        api.connect(layerId, attrId, targetId, attrId, overwrite);
+      }
+    }
+  }
+})();
+```
+
+{% highlight javascript %}
+(function () {
+  let attrIds = api.getSelectedAttributes();
+  let layerIds = api.getSelection();
+
+  let overwrite = api.isAltHeld();
+
+  for (let [layerId, attrId] of attrIds) {
+    for (let targetId of layerIds) {
+      if (api.hasAttribute(targetId, attrId) && targetId !== layerId) {
+        api.connect(layerId, attrId, targetId, attrId, overwrite);
+      }
+    }
+  }
+})();
+{% endhighlight %}
+
+
+{% highlight javascript linenos %}
+(function () {
+  let attrIds = api.getSelectedAttributes();
+  let layerIds = api.getSelection();
+
+  let overwrite = api.isAltHeld();
+
+  for (let [layerId, attrId] of attrIds) {
+    for (let targetId of layerIds) {
+      if (api.hasAttribute(targetId, attrId) && targetId !== layerId) {
+        api.connect(layerId, attrId, targetId, attrId, overwrite);
+      }
+    }
+  }
+})();
+{% endhighlight %}
 
 <div class="foo">
 
