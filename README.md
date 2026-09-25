@@ -49,7 +49,7 @@ This is **wrapped** in a para.
 This is <span style="color: red">written in red</span>.
 
 
-```js
+```javascript
 (function () {
   let attrIds = api.getSelectedAttributes();
   let layerIds = api.getSelection();
