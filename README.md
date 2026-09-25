@@ -66,19 +66,21 @@ This is <span style="color: red">written in red</span>.
 <video controls width="760">
   <source src="Untitled.mp4" type="video/mp4">
 </video>
+
+poster="https://github.com/user-attachments/assets/07bd7e2f-c78e-44e3-a824-00d301672413"
 ```
 
 
   
 ## preload="metadata"
 
-<video controls preload="metadata" playsinline width="760" poster="https://github.com/user-attachments/assets/07bd7e2f-c78e-44e3-a824-00d301672413">
+<video controls preload="metadata" playsinline width="760" >
   <source src="https://github.com/user-attachments/assets/5d67fa69-aaeb-43f1-8aee-8e0745faa0c6" type="video/mp4">
 </video>
 
 ## preload="none"
 
-<video controls preload="none" playsinline width="760" poster="https://github.com/user-attachments/assets/07bd7e2f-c78e-44e3-a824-00d301672413">
+<video controls preload="none" playsinline width="760" >
   <source src="https://github.com/user-attachments/assets/5d67fa69-aaeb-43f1-8aee-8e0745faa0c6" type="video/mp4">
 </video>
 
