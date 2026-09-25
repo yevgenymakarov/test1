@@ -84,13 +84,13 @@ This is <span style="color: red">written in red</span>.
 
 ## video attachments
 
-<video controls width="800">
+<video controls muted  width="800"   poster="https://github.com/user-attachments/assets/07bd7e2f-c78e-44e3-a824-00d301672413">
   <source src="https://github.com/user-attachments/assets/5d67fa69-aaeb-43f1-8aee-8e0745faa0c6" type="video/mp4">
   Ваш браузер не поддерживает видео.
 </video>
 
 ## vvv
 
-<video controls muted width="760">
+<video width="760"   poster="https://github.com/user-attachments/assets/07bd7e2f-c78e-44e3-a824-00d301672413">
   <source src="https://github.com/user-attachments/assets/5d67fa69-aaeb-43f1-8aee-8e0745faa0c6" type="video/mp4">
 </video>
