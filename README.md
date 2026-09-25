@@ -57,68 +57,9 @@ This is <span style="color: red">written in red</span>.
   let overwrite = api.isAltHeld();
 
   for (let [layerId, attrId] of attrIds) {
-    for (let targetId of layerIds) {
-      if (api.hasAttribute(targetId, attrId) && targetId !== layerId) {
-        api.connect(layerId, attrId, targetId, attrId, overwrite);
-      }
-    }
   }
 })();
 ```
-
-
-
-```
-(function () {
-  let attrIds = api.getSelectedAttributes();
-  let layerIds = api.getSelection();
-
-  let overwrite = api.isAltHeld();
-
-  for (let [layerId, attrId] of attrIds) {
-    for (let targetId of layerIds) {
-      if (api.hasAttribute(targetId, attrId) && targetId !== layerId) {
-        api.connect(layerId, attrId, targetId, attrId, overwrite);
-      }
-    }
-  }
-})();
-```
-
-{% highlight javascript %}
-(function () {
-  let attrIds = api.getSelectedAttributes();
-  let layerIds = api.getSelection();
-
-  let overwrite = api.isAltHeld();
-
-  for (let [layerId, attrId] of attrIds) {
-    for (let targetId of layerIds) {
-      if (api.hasAttribute(targetId, attrId) && targetId !== layerId) {
-        api.connect(layerId, attrId, targetId, attrId, overwrite);
-      }
-    }
-  }
-})();
-{% endhighlight %}
-
-
-{% highlight javascript linenos %}
-(function () {
-  let attrIds = api.getSelectedAttributes();
-  let layerIds = api.getSelection();
-
-  let overwrite = api.isAltHeld();
-
-  for (let [layerId, attrId] of attrIds) {
-    for (let targetId of layerIds) {
-      if (api.hasAttribute(targetId, attrId) && targetId !== layerId) {
-        api.connect(layerId, attrId, targetId, attrId, overwrite);
-      }
-    }
-  }
-})();
-{% endhighlight %}
 
 <div class="foo">
 
@@ -158,3 +99,6 @@ This is <span style="color: red">written in red</span>.
   <source src="https://github.com/user-attachments/assets/d1d7a63a-95eb-4819-ab52-f800a56f431c" type="video/mov">
 </video>
 
+## vvv
+
+https://github.com/user-attachments/assets/5d67fa69-aaeb-43f1-8aee-8e0745faa0c6" type="video/mp4
