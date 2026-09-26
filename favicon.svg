@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
-<svg width="100%" height="100%" viewBox="0 0 18 18" version="1.1" xmlns="http://www.w3.org/2000/svg">
-    <rect fill="#373737" x="0" y="0" width="18" height="18"/>
-    <path fill="#cacaca" d="M16,2h-14v14h14Zm-1,1v12h-12v-12Z"/>
-    <rect fill="#f5b4b8" x="7" y="7" width="6" height="6"/>
-    <rect fill="#cacaca" x="5" y="5" width="6" height="6"/>
-    <rect fill="#c18386" x="7" y="7" width="4" height="4"/>
+<svg width="100%" height="100%" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg">
+  <rect fill="#f5b4b8" x="6" y="6" width="8" height="8"/>
+  <rect fill="#cacaca" x="2" y="2" width="8" height="8"/>
+  <rect fill="#c18386" x="6" y="6" width="4" height="4"/>
 </svg>
