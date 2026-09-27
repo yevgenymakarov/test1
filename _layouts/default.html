@@ -6,7 +6,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     {% seo %}
     <link rel="stylesheet" href="{{ "/assets/css/style.css?v=" | append: site.github.build_revision | relative_url }}">
-    <link rel="icon" type="image/svg+xml" href="{{ '/favicon.svg' | relative_url }}">
+    <link rel="icon" type="image/png" sizes="16x16" href="{{ '/_icons/favicon-light-16x16.png' | relative_url }}" media="(prefers-color-scheme: light)">
+    <link rel="icon" type="image/png" sizes="32x32" href="{{ '/_icons/favicon-light-32x32.png' | relative_url }}" media="(prefers-color-scheme: light)">
+    <link rel="icon" type="image/png" sizes="64x64" href="{{ '/_icons/favicon-light-64x64.png' | relative_url }}" media="(prefers-color-scheme: light)">
+    <link rel="icon" type="image/png" sizes="16x16" href="{{ '/_icons/favicon-dark-16x16.png' | relative_url }}" media="(prefers-color-scheme: dark)">
+    <link rel="icon" type="image/png" sizes="32x32" href="{{ '/_icons/favicon-dark-32x32.png' | relative_url }}" media="(prefers-color-scheme: dark)">
+    <link rel="icon" type="image/png" sizes="64x64" href="{{ '/_icons/favicon-dark-64x64.png' | relative_url }}" media="(prefers-color-scheme: dark)">
     {% include head-custom.html %}
   </head>
   <body>
