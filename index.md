@@ -1,7 +1,3 @@
----
-permalink: /plagins/subpage/
----
-
 # Path Visualizer
 
 Version 1.0.0\
