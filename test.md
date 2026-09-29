@@ -1,5 +1,6 @@
 ---
 title: PAGE TITLE
+tagline: tagline xxx
 description: front matter description tag
 permalink: /multipass/
 categories: CATEGORY-1 CATEGORY-2
