@@ -1,36 +1,36 @@
-# Path Visualizer
+---
+title: Scripts and Plugins for Cavalry
+description: Scripts and plugins for Cavalry
+---
 
-Version 1.0.0\
-Supports Cavalry 2.7.2 and up\
-[Buy Now](/404.md)
-{: .product-block}
+# Scripts and Plugins for Cavalry
 
-This Cavalry plugin is a Deformer Layer that visualizes the points and handles of a bézier curve.
+## Plugins
 
-<img width="600" alt="Set-Pivot-Screen" src="https://github.com/user-attachments/assets/07bd7e2f-c78e-44e3-a824-00d301672413" />
+Third party Deformers, Shapes, or Filters appearing as native Layers in Cavalry.
 
-## User Manual
+- [Rolling Motion]() - Rotates a Shape and moves it, simulating rolling along a flat surface
+- [Path Visualizer]() - Draw the points and handles of a bézier curve
+- [Cube Shape]() - Create a cube in orthographic projection
+- [Wireframe Sphere]() - Create a sphere constructed from lines
+- [Split String]() - Splits the entered text into sub-strings by the selected delimiter
 
-**Dimension** - Set the dimensions of the cube.
+[More plugins...]()
 
-**Tilt** - Set the rotation of the cube.
+## Scripts
 
-**Offset** - Set the position of the cube.
+Tools with a user interface, which can be docked and saved as part of a Workspace.
 
-**Pivot Position** - Set the position the pivot by aligning it to the cube's bounding box. Affects the direction of the cube's size change.
+- [Set Pivot]() - Set the Pivot based on the Shape's bounding box
+- [Swap Color]() - Search the Scene for a specific color and replace it with another one
+- [Palette]() - The mini color palette for Cavalry
+- [Attribute Tools]() - A toolbar script with various Attribute tools
+- [Shape Tools]() - A mini toolbar with various Shape tools
 
-**Back-Face Culling** - When checked, faces that are not visible (covered by others) will not be drawn. The Shape will contain three sub-meshes instead of six.
+[More scripts...]()
 
-**Per-Face Colors** - Use custom fill colors for each face. When disabled, the Shape's Fill and Stroke settings are used.
+## Expressions
 
-**Front** - Set the color of the front face.
+The code that can be used on various Layers, such as JavaScript Shape or SkSL Shader.
 
-**Back** - Set the color of the back face.
-
-**Top** - Set the color of the top face.
-
-**Bottom** - Set the color of the bottom face.
-
-**Left** - Set the color of the left face.
-
-{% include plugin-install.md file_name="Path Visualizer Deformer.zip" %}
+- [Chladni Figures Shape]()
