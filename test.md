@@ -14,14 +14,18 @@ xyz: testxyz
 
 > Version 1.0.0
 > Supports Cavalry 2.7.2 and later.
-> [Buy Now](http://kramdown.gettalong.org "Go to the store")
+> [**Buy Now**](http://kramdown.gettalong.org "Go to the store")
 {: .py-3 .bg-gray}
 
 > Version 1.0.0
 > Supports Cavalry 2.7.2 and later.
-> [Free Download](http://kramdown.gettalong.org "Download the zip file")
+> **[Free Download](http://kramdown.gettalong.org "Download the zip file")**
 {: .py-3 .bg-gray}
 
+<video width="760" autoplay loop muted playsinline>
+  <source src="https://github.com/user-attachments/assets/5d67fa69-aaeb-43f1-8aee-8e0745faa0c6" type="video/mp4">
+</video>
+{: .width-fit}
 
 # Test Page
 
