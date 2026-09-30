@@ -8,6 +8,21 @@ tags: aaa ccc
 xyz: testxyz
 ---
 
+
+
+# New
+
+> Version 1.0.0
+> Supports Cavalry 2.7.2 and later.
+> [Buy Now](http://kramdown.gettalong.org "Go to the store")
+{: .py-3 .bg-gray}
+
+> Version 1.0.0
+> Supports Cavalry 2.7.2 and later.
+> [Free Download](http://kramdown.gettalong.org "Download the zip file")
+{: .py-3 .bg-gray}
+
+
 # Test Page
 
 {% include plugin-install.md file_name="Path Visualizer Deformer.zip" %}
