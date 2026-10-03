@@ -6,8 +6,7 @@ permalink: /mini-scripts/
 
 # Mini Scripts
 
-Small scripts that run without a graphical user interface or window on the screen.
-For quick access, you can assign a hotkey (see [Shortcut Manager]()) to them or run them through the [Command Search]().
+Small tools that run without a UI and perform a single action on selected Layers or Attributes.
 
 > **[Free Download](index.md "Download the zip file")**
 {: .py-3 .bg-gray .rounded-2}
@@ -49,8 +48,6 @@ Add any selected Layers and their child layers to the Quicklist and set the mode
 ### Toggle Visibility
 
 Toggle the visibility of the selected Layers. Visible ones become hidden, and hidden ones become visible.
-
-## Installation
 
 {% include script-install.md file_name="mini-scripts.zip" %}
 
