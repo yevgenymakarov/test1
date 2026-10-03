@@ -9,11 +9,10 @@ permalink: /mini-scripts/
 Small scripts that run without a graphical user interface or window on the screen.
 For quick access, you can assign a hotkey (see [Shortcut Manager]()) to them or run them through the [Command Search]().
 
-> Supports Cavalry 2.7.2 and later.
 > **[Free Download](index.md "Download the zip file")**
 {: .py-3 .bg-gray .rounded-2}
 
-## List
+## List of Scripts
 
 ### Connect Colors to Scene Palette
 
@@ -51,11 +50,10 @@ Add any selected Layers and their child layers to the Quicklist and set the mode
 
 Toggle the visibility of the selected Layers. Visible ones become hidden, and hidden ones become visible.
 
-
 ## Installation
 
-Download the " include.file_name " file. Unzip and drop the folder or individual script files into the Script folder.
+{% include script-install.md file_name="mini-scripts.zip" %}
 
-Read the [official documentation](https://cavalry.studio/docs/user-interface/menus/scripts-menu/) for details.
+## See Also
 
-
+- [More Cavalry plugins...](scripts.md)
