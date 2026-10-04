@@ -3,7 +3,7 @@ title: Scripts and Plugins for Cavalry
 description: Scripts and plugins for Cavalry
 ---
 
-# Scripts and Plugins for Cavalry
+# Scripts and Plugins for Cavalry (XXX)
 
 ## Plugins
 
