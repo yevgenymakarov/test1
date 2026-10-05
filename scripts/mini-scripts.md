@@ -2,14 +2,13 @@
 title: Mini Scripts
 description: List of small scripts for Cavalry
 permalink: /scripts/mini-scripts/
-filez: Mini.Scripts.zip
 ---
 
 # Mini Scripts
 
 Small tools that run without a UI and perform a single action on selected Layers or Attributes.
 
-> **[Free Download]({{ site.xyz }}{{ page.filez }} "Download the zip file")**
+> **[Free Download](index.md "Download the zip file")**
 {: .py-3 .bg-gray .rounded-2}
 
 ## List of Scripts
@@ -50,7 +49,7 @@ Add any selected Layers and their child layers to the Quicklist and set the mode
 
 Toggle the visibility of the selected Layers. Visible ones become hidden, and hidden ones become visible. Useful for toggling states when comparing layers.
 
-{% include script-install.md file_name="{{ page.filez }}" %}
+{% include script-install.md file_name="Mini Scripts.zip" %}
 
 ## See Also
 
