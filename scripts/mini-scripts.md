@@ -8,9 +8,9 @@ permalink: /scripts/mini-scripts/
 
 Small tools that run without a UI and perform a single action on selected Layers or Attributes.
 
-{{ site.xyz }}
 
-> **[Free Download](index.md "Download the zip file")**
+
+> **[Free Download]({{ site.xyz }}Mini.Scripts.zip "Download the zip file")**
 {: .py-3 .bg-gray .rounded-2}
 
 ## List of Scripts
