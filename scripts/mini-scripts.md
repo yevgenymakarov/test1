@@ -8,9 +8,7 @@ permalink: /scripts/mini-scripts/
 
 Small tools that run without a UI and perform a single action on selected Layers or Attributes.
 
-
-
-> **[Free Download]({{ site.xyz }}Mini.Scripts.zip "Download the zip file")**
+> **[Free Download](https://github.com/yevgenymakarov/yevgenymakarov.github.io/releases/download/v1/Mini.Scripts.zip "Download the zip file")**
 {: .py-3 .bg-gray .rounded-2}
 
 ## List of Scripts
@@ -51,7 +49,7 @@ Add any selected Layers and their child layers to the Quicklist and set the mode
 
 Toggle the visibility of the selected Layers. Visible ones become hidden, and hidden ones become visible. Useful for toggling states when comparing layers.
 
-{% include script-install.md file_name="Mini Scripts.zip" %}
+{% include script-install.md file_name="Mini.Scripts.zip" %}
 
 ## See Also
 
