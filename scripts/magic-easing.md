@@ -13,7 +13,7 @@ permalink: /scripts/magic-easing/
 
 Internally, Cavalry supports all standard Robert Penner's easing functions, but not all of them are available through the default Magic Easing menu. This script allows you to use all the built-in easing available in Cavalry, with the option to convert them into Custom expressions, as well as save and load your own Custom easing presets.
 
-<img width="600" alt="Set-Pivot-Screen" src="https://github.com/user-attachments/assets/07bd7e2f-c78e-44e3-a824-00d301672413" />
+<img width="600" alt="Magic Easing" src="https://github.com/user-attachments/assets/1c8afcda-af89-47f1-a62d-b26906fe699a" />
 
 ## User Manual
 
@@ -65,11 +65,13 @@ Internally, Cavalry supports all standard Robert Penner's easing functions, but 
 
 **Restore from Backup File** - Import expressions from a backup file; add to existing expressions or replace them all.
 
+<img width="600" alt="Magic Easing" src="https://github.com/user-attachments/assets/ee66acfd-4724-4f09-97d1-3d736bb6f94c" />
+
 {% include script-install.md file_name="Magic Easing.zip" %}
 
 ## Whay's New
 
-The ability to save and load Custom easing presets; the Elastic easing with adjustable frequency is included in the default presets.
+The ability to save and load Custom easing presets; the Elastic easing with adjustable frequency is included in the default presets. Shortcut scripts, for use with hotkeys.
 
 ## See Also
 

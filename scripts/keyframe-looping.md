@@ -13,7 +13,7 @@ permalink: /scripts/keyframe-looping/
 
 A toolbar to quickly set looping on an animation curve.
 
-<img width="600" alt="Keyframe Looping" src="https://github.com/user-attachments/assets/07bd7e2f-c78e-44e3-a824-00d301672413" />
+<img width="600" alt="Keyframe Looping" src="https://github.com/user-attachments/assets/9c0229fc-4448-48af-87e1-60b65041ed51" />
 
 ## User Manual
 
@@ -33,5 +33,4 @@ Shortcut scripts, for use with hotkeys.
 
 ## See Also
 
-- [Align Keyframes](align-keyframes.md)
 - [More Cavalry plugins...](../scripts.md)
