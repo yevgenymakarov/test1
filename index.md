@@ -5,21 +5,23 @@ description: Scripts and plugins for Cavalry
 
 # Scripts and Plugins for Cavalry
 
+
 {% for r in site.github.releases %}
-  * r
+  * {{ r }}
 {% endfor %}
 
 
 {% for r in site.github.latest_release %}
-  * r
+  * {{ r }}
 {% endfor %}
 
 
-site.github.repository_url
+{{site.github.repository_url}}
 
-site.github.releases_url
+{{site.github.releases_url}}
 
-site.github.url
+{{site.github.url}}
+
 
 ## Plugins
 
