@@ -13,7 +13,7 @@ permalink: /scripts/keyframe-looping/
 
 A toolbar to quickly set looping on an animation curve.
 
-<img width="600" alt="Keyframe Looping" src="https://github.com/user-attachments/assets/9c0229fc-4448-48af-87e1-60b65041ed51" />
+<img width="600" alt="Keyframe Looping" src="../images/keyframe-looping.png" />
 
 ## User Manual
 
