@@ -5,6 +5,22 @@ description: Scripts and plugins for Cavalry
 
 # Scripts and Plugins for Cavalry
 
+{% for r in site.github.releases %}
+  * r
+{% endfor %}
+
+
+{% for r in site.github.latest_release %}
+  * r
+{% endfor %}
+
+
+site.github.repository_url
+
+site.github.releases_url
+
+site.github.url
+
 ## Plugins
 
 Third party Deformers, Shapes, or Filters appearing as native Layers in Cavalry.
