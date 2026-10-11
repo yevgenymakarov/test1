@@ -9,11 +9,17 @@ permalink: /scripts/keyframe-looping/
 > Version 1.1.1
 > Supports Cavalry 2.6.0 and later.
 > **[Free Download](https://github.com/yevgenymakarov/yevgenymakarov.github.io/releases/download/v1/Keyframe.Looping.zip "Download the zip file")**
-{: .py-3 .bg-gray .rounded-2}
+{: .py-3 .bg-gray .rounded-2 }
 
 A toolbar to quickly set looping on an animation curve.
 
 <img width="600" alt="Keyframe Looping" src="images/keyframe-looping.png">
+
+<img width="600" alt="Keyframe Looping" src="{{ 'images/keyframe-looping.png' | relative_url }}">
+
+<img width="600" alt="Keyframe Looping" src="../images/keyframe-looping.png">
+
+<img width="600" alt="Keyframe Looping" src="/scripts/images/keyframe-looping.png">
 
 ## User Manual
 
