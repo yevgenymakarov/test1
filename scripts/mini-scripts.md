@@ -49,7 +49,7 @@ Add any selected Layers and their child layers to the Quicklist and set the mode
 
 Toggle the visibility of the selected Layers. Visible ones become hidden, and hidden ones become visible. Useful for toggling states when comparing layers.
 
-{% include script-install.md file_name="Mini.Scripts.zip" %}
+{% include script-install.md file_name="Mini Scripts.zip" %}
 
 ## See Also
 

@@ -34,9 +34,9 @@ permalink: /scripts/
 - [Storage Slots](scripts/storage-slots.md) - This script allows you to preserve Layer or Keyframe selection and restore it later
 - [Note](scripts/note.md) - Script to display a text note in the Cavalry interface
 - [Palette](scripts/palette.md) - The mini color palette for Cavalry
-- [Version Toolbar](scripts/) - A mini toolbar to show the Cavalry version
+- [Version Toolbar](scripts/version-toolbar.md) - A mini toolbar to show the Cavalry version
 
 ## Miscellaneous
 
-- [Mini Scripts](scripts/version-toolbar.md) - Small scripts that run without a graphical user interface
+- [Mini Scripts](scripts/mini-scripts.md) - Small scripts that run without a graphical user interface
 - [Sublime Text to Cavalry](scripts/sublime-text-to-cavalry.md) - Use Sublime Text as an external script editor for Cavalry

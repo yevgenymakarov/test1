@@ -40,7 +40,7 @@ Internally, Cavalry supports all standard Robert Penner's easing functions, but 
 
 **Value** - Set a value for an arbitrary variable that can be used in a Custom expression. See the Elastic easing preset as an example.
 
-**Apply** - Apply easing to the selected Keyframes. Hold Shift to quickly switch to the next easing function (or the next Custom expression) in the list. Hold Option/Alt to read easing from selected Keyframes; or to load a Custom expression from the selected Keyframe into the edit field.
+**Apply** - Apply easing to the selected Keyframes. Hold <kbd>Shift</kbd> to quickly switch to the next easing function (or the next Custom expression) in the list. Hold <kbd>Option/Alt</kbd> to read easing from selected Keyframes; or to load a Custom expression from the selected Keyframe into the edit field.
 
 **Reset** - Reset the selected Keyframes to linear interpolation.
 

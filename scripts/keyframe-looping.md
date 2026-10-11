@@ -25,6 +25,8 @@ None, Looping, Looping with Offset, Oscillate.
 
 None, Looping, Looping with Offset, Oscillate.
 
+{% include script-install.md file_name="Keyframe Looping.zip" %}
+
 ## Whay's New
 
 Shortcut scripts, for use with hotkeys.
