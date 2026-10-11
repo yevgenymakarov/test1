@@ -9,11 +9,11 @@ permalink: /scripts/magic-easing/
 > Version 1.2.0
 > Supports Cavalry 2.6.0 and later.
 > **[Free Download](https://github.com/yevgenymakarov/yevgenymakarov.github.io/releases/download/v1/Magic.Easing.zip "Download the zip file")**
-{: .py-3 .bg-gray .rounded-2}
+{: .py-3 .bg-gray .rounded-2 }
 
 Internally, Cavalry supports all standard Robert Penner's easing functions, but not all of them are available through the default Magic Easing menu. This script allows you to use all the built-in easing available in Cavalry, with the option to convert them into Custom expressions, as well as save and load your own Custom easing presets.
 
-<img width="600" alt="Magic Easing" src="images/magic-easing-built-in-functions.png">
+<img width="600" alt="Magic Easing" src="../images/magic-easing-built-in-functions.png">
 
 ## User Manual
 
@@ -65,7 +65,7 @@ Internally, Cavalry supports all standard Robert Penner's easing functions, but 
 
 **Restore from Backup File** - Import expressions from a backup file; add to existing expressions or replace them all.
 
-<img width="600" alt="Magic Easing" src="images/magic-easing-custom-expression.png">
+<img width="600" alt="Magic Easing" src="../images/magic-easing-custom-expression.png">
 
 {% include script-install.md file_name="Magic Easing.zip" %}
 
@@ -75,4 +75,4 @@ The ability to save and load Custom easing presets; the Elastic easing with adju
 
 ## See Also
 
-- [More Cavalry plugins...](../scripts.md)
+- [More Cavalry scripts...](../scripts.md)

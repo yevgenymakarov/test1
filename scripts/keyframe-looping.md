@@ -13,13 +13,7 @@ permalink: /scripts/keyframe-looping/
 
 A toolbar to quickly set looping on an animation curve.
 
-<img width="600" alt="Keyframe Looping" src="images/keyframe-looping.png">
-
-<img width="600" alt="Keyframe Looping" src="{{ 'images/keyframe-looping.png' | relative_url }}">
-
 <img width="600" alt="Keyframe Looping" src="../images/keyframe-looping.png">
-
-<img width="600" alt="Keyframe Looping" src="/scripts/images/keyframe-looping.png">
 
 ## User Manual
 
@@ -39,4 +33,4 @@ Shortcut scripts, for use with hotkeys.
 
 ## See Also
 
-- [More Cavalry plugins...](../scripts.md)
+- [More Cavalry scripts...](../scripts.md)

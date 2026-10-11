@@ -9,7 +9,7 @@ permalink: /scripts/mini-scripts/
 Small tools that run without a UI and perform a single action on selected Layers or Attributes.
 
 > **[Free Download](https://github.com/yevgenymakarov/yevgenymakarov.github.io/releases/download/v1/Mini.Scripts.zip "Download the zip file")**
-{: .py-3 .bg-gray .rounded-2}
+{: .py-3 .bg-gray .rounded-2 }
 
 ## List of Scripts
 
@@ -53,4 +53,4 @@ Toggle the visibility of the selected Layers. Visible ones become hidden, and hi
 
 ## See Also
 
-- [More Cavalry plugins...](../scripts.md)
+- [More Cavalry scripts...](../scripts.md)
