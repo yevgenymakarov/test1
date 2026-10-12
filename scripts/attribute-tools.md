@@ -5,3 +5,5 @@ permalink: /scripts/attribute-tools/
 ---
 
 # Attribute Tools
+
+{% include script-install.md file_name="Attribute Tools.zip" %}

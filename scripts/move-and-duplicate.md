@@ -11,7 +11,7 @@ permalink: /scripts/move-and-duplicate/
 > **[Free Download](https://github.com/yevgenymakarov/yevgenymakarov.github.io/releases/download/v1/Move.and.Duplicate.zip "Download the zip file")**
 {: .py-3 .bg-gray .rounded-2 }
 
-This Cavalry script allows you to precisely move selected Shape Layers or Path's Points by a specified angle and distance, with the option for Shapes to create duplicates and apply additional rotation and scale.
+This script allows you to precisely move selected Shape Layers or Path's Points by a specified angle and distance, with the option for Shapes to create duplicates and apply additional rotation and scale.
 
 <img width="600" alt="Move & Duplicate" src="../images/move-and-duplicate.png">
 
@@ -39,7 +39,7 @@ This Cavalry script allows you to precisely move selected Shape Layers or Path's
 
 **Reset** - Reset all input fields to the default value.
 
-**Apply** - Move and/or duplicate selected Layers; hold down the <kbd>Option/Alt</kbd> key to place duplicate Layers under the original. With the Edit Shape Tool selected, move the selected Points; hold down the <kbd>Option/Alt</kbd> key to move Points in the Shape's local space.
+**Apply** - Move and/or duplicate selected Layers; hold down the <kbd>Option/Alt</kbd> key to place duplicate Layers under the original. Move the selected Points; hold down the <kbd>Option/Alt</kbd> key to move Points in the Shape's local space.
 
 ### Context menu items
 
@@ -51,11 +51,11 @@ This Cavalry script allows you to precisely move selected Shape Layers or Path's
 
 **Set Vertical from Bounding Box** - Set the Vertical value equal to the height of the bounding box of the selected Shapes or Points.
 
-**Set Angle from Shape's Rotation** - Set the Angle equal to the rotation of the selected Shape. (You have to select exactly one Shape.)
+**Set Angle from Shape's Rotation** - Set the Angle equal to the rotation of the selected Shape.
 
-**Set Angle from Two Points** - Set the Angle based on the angle of the vector between the two selected Points. (You have to select exactly two Points.)
+**Set Angle from Two Points** - Set the Angle based on the angle of the vector between the two selected Points.
 
-**Set Distance from Two Points** - Set the Distance based on the distance between the two selected Points. (You have to select exactly two Points.)
+**Set Distance from Two Points** - Set the Distance based on the distance between the two selected Points.
 
 {% include script-install.md file_name="Move and Duplicate.zip" %}
 

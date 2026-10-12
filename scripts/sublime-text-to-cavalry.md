@@ -5,3 +5,5 @@ permalink: /scripts/sublime-text-to-cavalry/
 ---
 
 # Sublime Text to Cavalry
+
+{% include script-install.md file_name="" %}
