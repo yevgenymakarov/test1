@@ -1,6 +1,6 @@
 ---
 title: History
-description: History
+description: History script for Cavalry
 permalink: /scripts/history/
 ---
 

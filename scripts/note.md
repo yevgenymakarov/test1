@@ -1,6 +1,6 @@
 ---
 title: Note
-description: Note
+description: Note script for Cavalry
 permalink: /scripts/note/
 ---
 

@@ -1,6 +1,6 @@
 ---
 title: Attribute Expression
-description: Attribute Expression
+description: Attribute Expression script for Cavalry
 permalink: /scripts/attribute-expression/
 ---
 

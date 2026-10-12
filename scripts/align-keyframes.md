@@ -1,6 +1,6 @@
 ---
 title: Align Keyframes
-description: Align Keyframes
+description: Align Keyframes script for Cavalry
 permalink: /scripts/align-keyframes/
 ---
 
@@ -17,20 +17,20 @@ The Cavalry script with various keyframe alignment tools.
 
 ## User Manual
 
-**Align Keybars** - Align the selected Keyframes (the group on each attribute) to each other:
+**Align Keybars** - Align the selected Keyframes (the group on each attribute) to each other.
 
 - Left
 - Center
 - Right
 
-**Align to Playhead** - Align the selected Keyframes (the group on each attribute) with the playhead:
+**Align to Playhead** - Align the selected Keyframes (the group on each attribute) with the playhead.
 
 - Left
 - Right
 
 **Align Keyframes to Playhead** - Align the closest (to the playhead) of the selected Keyframes with the playhead.
 
-**Align Keyframe Values** - Align keyframe values to the highest, average, or lowest value of the selected Keyframes:
+**Align Keyframe Values** - Align keyframe values to the highest, average, or lowest value of the selected Keyframes.
 
 - Highest
 - Middle

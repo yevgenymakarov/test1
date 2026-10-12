@@ -1,6 +1,6 @@
 ---
 title: Align
-description: Align
+description: Align script for Cavalry
 permalink: /scripts/align/
 ---
 

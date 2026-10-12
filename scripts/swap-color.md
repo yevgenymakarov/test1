@@ -8,7 +8,7 @@ permalink: /scripts/swap-color/
 
 > Version 1.1.0
 > Supports Cavalry 2.6.0 and later.
-> **[Free Download](https://github.com/yevgenymakarov/yevgenymakarov.github.io/releases/download/v1/Swap.Color.zip "Download the zip file")**
+> **[Buy Now](https://app.lava.top/products/aa840626-24ba-4f96-81fa-8748a5433554 "Go to the store")**
 {: .py-3 .bg-gray .rounded-2 }
 
 This script allows you to search the Scene for a specific color and replace it with another one.

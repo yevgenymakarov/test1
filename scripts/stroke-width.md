@@ -1,6 +1,6 @@
 ---
 title: Stroke Width
-description: Stroke Width
+description: Stroke Width script for Cavalry
 permalink: /scripts/stroke-width/
 ---
 
@@ -17,11 +17,11 @@ This script offsets or multiplies the Stroke Width of the Shapes.
 
 ## User Manual
 
-**Offset Value** - Stroke Width offset or multiply value.
+**Offset Value** - Stroke width offset or multiply value.
 
-**Multiply** - Multiply the stroke Width instead of adding to it.
+**Multiply** - Multiply the stroke width instead of adding to it.
 
-**Apply** - Apply the stroke Width offset.
+**Apply** - Apply the stroke width offset.
 
 {% include script-install.md file_name="Stroke Width.zip" %}
 

@@ -13,7 +13,7 @@ permalink: /scripts/palette/
 
 A mini color palette, synchronized with the Scene Palette.
 
-<img width="600" alt="Magic Easing" src="../images/palette.png">
+<img width="600" alt="Palette" src="../images/palette.png">
 
 ## User Manual
 

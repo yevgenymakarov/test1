@@ -1,6 +1,6 @@
 ---
 title: Move & Duplicate
-description: Move & Duplicate
+description: Move & Duplicate script for Cavalry
 permalink: /scripts/move-and-duplicate/
 ---
 

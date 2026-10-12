@@ -1,6 +1,6 @@
 ---
 title: Attribute Renamer
-description: Attribute Renamer
+description: Attribute Renamer script for Cavalry
 permalink: /scripts/attribute-renamer/
 ---
 
