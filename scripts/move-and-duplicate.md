@@ -17,13 +17,13 @@ This Cavalry script allows you to precisely move selected Shape Layers or Path's
 
 ## User Manual
 
-This script is context aware depending on whether the Edit Shape Tool is enabled.
+*This script is context aware depending on whether the Edit Shape Tool is enabled.*
 
 **Horizontal** - Set the horizontal offset, the x-axis.
 
 **Vertical** - Set the vertical offset, the y-axis.
 
-The Horizontal and Vertical fields change automatically according to changes in the Distance or Angle fields, and vice versa.
+*The Horizontal and Vertical fields change automatically according to changes in the Distance or Angle fields, and vice versa.*
 
 **Distance** - Set the distance of movement.
 
@@ -39,9 +39,7 @@ The Horizontal and Vertical fields change automatically according to changes in 
 
 **Reset** - Reset all input fields to the default value.
 
-**Apply** - Move and/or duplicate selected Layers. Hold down the <kbd>Option/Alt</kbd> key to place duplicate Layers under the original.
-
-- With the Edit Shape Tool selected, move the selected Points. Hold down the <kbd>Option/Alt</kbd> key to move Points in the Shape's local space.
+**Apply** - Move and/or duplicate selected Layers; hold down the <kbd>Option/Alt</kbd> key to place duplicate Layers under the original. With the Edit Shape Tool selected, move the selected Points; hold down the <kbd>Option/Alt</kbd> key to move Points in the Shape's local space.
 
 ### Context menu items
 
