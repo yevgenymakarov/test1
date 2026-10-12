@@ -1,6 +1,6 @@
 ---
 title: Storage Slots
-description: Storage Slots
+description: Storage Slots script for Cavalry
 permalink: /scripts/storage-slots/
 ---
 
@@ -8,7 +8,7 @@ permalink: /scripts/storage-slots/
 
 > Version 1.1.0
 > Supports Cavalry 2.6.0 and later.
-> **[Free Download](https://github.com/yevgenymakarov/yevgenymakarov.github.io/releases/download/v1/Magic.Easing.zip "Download the zip file")**
+> **[Free Download](https://github.com/yevgenymakarov/yevgenymakarov.github.io/releases/download/v1/Storage.Slots.zip "Download the zip file")**
 {: .py-3 .bg-gray .rounded-2 }
 
 This script allows you to preserve Layer or Keyframe selection and restore it later.
@@ -27,7 +27,7 @@ This script allows you to preserve Layer or Keyframe selection and restore it la
 - Hold down <kbd>Option/Alt</kbd> to subtract the saved selection from the current selection.
 - Hold down <kbd>Command/Ctrl</kbd> + <kbd>Option/Alt</kbd> to intersect with the current selection.
 
-Reorder slots by dragging by the index number, rename slots, add new slots, clear or remove slots via the context menu.
+Reorder slots by dragging by the index number; rename slots, add new slots, clear or remove slots via the context menu.
 
 The data (Layer and Keyframe IDs) is stored in the Cavalry's preferences, not in the Scene file.
 
