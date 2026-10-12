@@ -13,7 +13,7 @@ permalink: /scripts/align-keyframes/
 
 The Cavalry script with various keyframe alignment tools.
 
-<img width="600" alt="Keyframe Looping" src="../images/align-keyframes.png">
+<img width="600" alt="Align Keyframes" src="../images/align-keyframes.png">
 
 ## User Manual
 
